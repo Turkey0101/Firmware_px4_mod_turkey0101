@@ -88,6 +88,8 @@ class ParameterGroup(object):
             return "Rover"
         elif (self.name == "Boat"):
             return "Boat"
+        elif (self.name == "Simulation (Plane)"):
+            return "Plane"
         return "AirframeUnknown"
 
     def GetParams(self):
